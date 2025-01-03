@@ -1,0 +1,21 @@
+{
+  "name": "snooze",
+  "version": "1.0.0",
+  "description": "it's a REST app in Node.js + Express... ergo \"snooze\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
